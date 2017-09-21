@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Hello from './Hello';
+import Hello from './src/components/Hello';
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Hello/>
+        <Hello />
       </View>
     );
   }
